@@ -18,7 +18,7 @@ Send Email
 Request:
 
 - Content-Type: multipart/form-data
--  Body:
+Body:
 - ToEmail: Recipient email address
 - Subject: Email subject
 - Body: Email body (HTML supported)

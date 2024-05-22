@@ -27,6 +27,6 @@ A simple .NET Core 8 Web API project to send emails with attachments using MailK
 
 
 
-  <img src="./images/img1.png" width="500" height="320" />
+  <img src="./images/img4.png" width="500" height="320" />
 
 

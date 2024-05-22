@@ -1,14 +1,14 @@
 ﻿using MailKit.Net.Smtp;
 using MailKit.Security;
 using MimeKit;
-using SendMail_DotNETCore8WebAPI_Backend.Interfaces;
-using SendMail_DotNETCore8WebAPI_Backend.Models;
+using MailSend_DotNETCore8WebAPI.Interfaces;
+using MailSend_DotNETCore8WebAPI.Models;
 using Microsoft.Extensions.Options;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace SendMail_DotNETCore8WebAPI_Backend.Services
+namespace MailSend_DotNETCore8WebAPI.Services
 {
     public class MailSendService : IMailSendService
     {

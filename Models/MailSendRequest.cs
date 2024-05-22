@@ -1,4 +1,4 @@
-﻿namespace SendMail_DotNETCore8WebAPI_Backend.Models
+﻿namespace MailSend_DotNETCore8WebAPI.Models
 {
     public class MailSendRequest
     {

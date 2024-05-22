@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Logging;
-using SendMail_DotNETCore8WebAPI_Backend.Interfaces;
-using SendMail_DotNETCore8WebAPI_Backend.Models;
-using SendMail_DotNETCore8WebAPI_Backend.Services;
+using MailSend_DotNETCore8WebAPI.Interfaces;
+using MailSend_DotNETCore8WebAPI.Models;
+using MailSend_DotNETCore8WebAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,6 +1,6 @@
-﻿using SendMail_DotNETCore8WebAPI_Backend.Models;
+﻿using MailSend_DotNETCore8WebAPI.Models;
 
-namespace SendMail_DotNETCore8WebAPI_Backend.Interfaces
+namespace MailSend_DotNETCore8WebAPI.Interfaces
 {
     public interface IMailSendService
     {

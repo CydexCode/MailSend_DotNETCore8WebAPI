@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SendMail_DotNETCore8WebAPI_Backend.Interfaces;
-using SendMail_DotNETCore8WebAPI_Backend.Models;
+using MailSend_DotNETCore8WebAPI.Interfaces;
+using MailSend_DotNETCore8WebAPI.Models;
 using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace SendMail_DotNETCore8WebAPI_Backend.Controllers
+namespace MailSend_DotNETCore8WebAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]

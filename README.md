@@ -8,17 +8,17 @@ A simple .NET Core 8 Web API project to send emails with attachments using MailK
 - Attach multiple files to the email
 - Configurable SMTP settings
 
-## API Endpoints
+## API Endpoint
 
-###Send Email
+Send Email
 - Endpoint: POST /SendMail
 
 - Description: Sends an email with the specified details and attachments.
 
-- Request:
+Request:
 
 - Content-Type: multipart/form-data
-- Body:
+-  Body:
 - ToEmail: Recipient email address
 - Subject: Email subject
 - Body: Email body (HTML supported)

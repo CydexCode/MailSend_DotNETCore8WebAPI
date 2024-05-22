@@ -8,6 +8,13 @@ A simple .NET Core 8 Web API project to send emails with attachments using MailK
 - Attach multiple files to the email
 - Configurable SMTP settings
 
+
+## How This Works
+- SendMailController.cs: The controller that handles HTTP POST requests to the /SendMail endpoint. It receives email details and attachments via a multipart/form-data request.
+- MailSendService.cs: The service that constructs the email message using MimeKit, attaches files if provided, and sends the email using MailKit's SMTP client.
+- appsettings.json: Configuration file that holds SMTP server settings such as email, password, host, and port.
+- Program.cs: The entry point of the application which configures services and middleware.
+
 ## API Endpoint
 
 Send Email
